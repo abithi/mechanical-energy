@@ -1,0 +1,11 @@
+#mechanical energy
+g=9.8
+m=int(input("enter the value of mass:"))
+h=int(input("enter the displacement of the object:"))
+v=int(input("enter the velocity of the object:"))
+P=m*g*h
+K=.5*m*v*v
+M=P+K
+print("potential energy",P)
+print("Kinectic energy",K)
+print("mechanicalenergy",M)
